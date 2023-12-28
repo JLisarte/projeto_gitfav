@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitFav</title>
+
+  <link rel="shortcut icon" href="./assets/img/star.svg" type="image/x-svg">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="./assets/img/gitfav.svg" alt="">
+      <div class="search">
+        <input type="text" id="input-search" placeholder="Digite o Github username que quer favoritar">
+        <button 
+          class="button" id="btn-search">
+            &#9734 FAVORITAR
+        </button>
+      </div>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Repositories</th>
+          <th>Followers</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Juliano Lisarte</td>
+          <td>10</td>
+          <td>10</td>
+          <td>
+            <button class="remove" id="btn-remove">
+              Remover
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Juliano Lisarte</td>
+          <td>10</td>
+          <td>10</td>
+          <td>
+            <button class="remove" id="btn-remove">
+              Remover
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Juliano Lisarte</td>
+          <td>10</td>
+          <td>10</td>
+          <td>
+            <button class="remove" id="btn-remove">
+              Remover
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>
+  <p>© 2023 - Desenvolvido por Rocketseat feito por Juliano Lisarte</p>
+    <div class="socialIcons">
+
+      <div class="github git-light">
+        <a href="https://github.com/JLisarte" target="_blank">
+          <img src="./assets/img/logo-github.svg" width="30px" alt="Icone do gitHub" >
+        </a>
+      </div>
+
+      <div class="linkedin linkedin-light">
+        <a href="https://www.linkedin.com/in/juliano-lisarte-983ab3266/" target="_blank">
+          <img src="./assets/img/logo-linkedin.svg" width="30px" alt="Icone do linkedin">
+        </a>
+      </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
