@@ -16,7 +16,7 @@ body {
 }
 
 #app {
-  padding: 16rem;
+  padding: 3rem 16rem;
   max-width: 144rem;
   margin: 0 auto;
 }
@@ -121,6 +121,7 @@ td.user img {
 
 td.user a {
   text-decoration: none;
+  color: #E1E1E6;
 }
 
 td .remove {
@@ -133,7 +134,6 @@ td .remove {
 footer p {
   font-size: 1.4rem;
   text-align: center;
-  margin-top: 10rem;
   color: #E1E1E6;
 }
 
@@ -142,4 +142,13 @@ footer p {
   justify-content: center;
   margin-top: 2rem;
   gap: 1rem;
+}
+
+.null {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 6rem;
+  color: #4E5455;
 }

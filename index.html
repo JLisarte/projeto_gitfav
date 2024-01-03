@@ -13,6 +13,8 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
+  <script type="module" src="./js/main.js"></script>
+
 </head>
 <body>
   <div id="app">
@@ -20,10 +22,7 @@
       <img src="./assets/img/gitfav.svg" alt="">
       <div class="search">
         <input type="text" id="input-search" placeholder="Digite o Github username que quer favoritar">
-        <button 
-          class="button" id="btn-search">
-            &#9734 FAVORITAR
-        </button>
+        <button>&#9734; FAVORITAR</button>
       </div>
     </header>
     <table>
@@ -35,39 +34,12 @@
           <th>Action</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td>Juliano Lisarte</td>
-          <td>10</td>
-          <td>10</td>
-          <td>
-            <button class="remove" id="btn-remove">
-              Remover
-            </button>
-          </td>
-        </tr>
-        <tr>
-          <td>Juliano Lisarte</td>
-          <td>10</td>
-          <td>10</td>
-          <td>
-            <button class="remove" id="btn-remove">
-              Remover
-            </button>
-          </td>
-        </tr>
-        <tr>
-          <td>Juliano Lisarte</td>
-          <td>10</td>
-          <td>10</td>
-          <td>
-            <button class="remove" id="btn-remove">
-              Remover
-            </button>
-          </td>
-        </tr>
-      </tbody>
+      <tbody class="tbody"></tbody>
     </table>
+    <div class="null">
+      <img src="./assets/img/noneFollowers.svg" alt="">
+      <h1>Nenhum usuário favoritado</h1>
+    </div>
   </div>
   <footer>
   <p>© 2023 - Desenvolvido por Rocketseat feito por Juliano Lisarte</p>
